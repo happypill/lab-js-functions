@@ -1,11 +1,10 @@
 // Question 1
-<<<<<<< HEAD
 function maxOfTwoNumbers(x,y) {
-	if(x<y){
-		return y;
-	}else if(x>y){
-		return x;
-	}
+  if(x<y){
+    return y;
+  }else if(x>y){
+    return x;
+  }
 }
 
 // Question 2
@@ -25,32 +24,18 @@ function maxOfThree(x,y,z) {
 
 // Question 3
 function isCharacterAVowel(x) {
-	var vowels = ['a','e','i','o','u'];
-	if(vowels.indexOf(c.toLowerCase()!==-1)){
-		return true;
-	}
-	else
-		return false;
-=======
-function maxOfTwoNumbers() {
-
-}
-
-// Question 2
-function maxOfThree() {
-
-}
-
-// Question 3
-function isCharacterAVowel() {
->>>>>>> 3e56b85a90f9e62b1074355990a1b39004b4595d
+  var vowels = ['a','e','i','o','u'];
+  if(vowels.indexOf(c.toLowerCase()!==-1)){
+    return true;
+  }
+  else
+    return false;
 
 }
 
 // Question 4
-<<<<<<< HEAD
 function sumArray(arr) {
-	return arr.reduce(function(a, b) {
+  return arr.reduce(function(a, b) {
     return a + b;
   });
 }
@@ -62,23 +47,12 @@ function multiplyArray() {
     unit *=arr[i];
   }
   return unit;
-=======
-function sumArray() {
- 
-}
-
-
-// Question 4
-function multiplyArray() {
-
->>>>>>> 3e56b85a90f9e62b1074355990a1b39004b4595d
 }
 
 
 // Question 5
 var reverseString = function (){
-<<<<<<< HEAD
-	return this.split('').reverse().join('');
+  return this.split('').reverse().join('');
   
 };
 
@@ -118,38 +92,11 @@ function charactersOccurencesCount(s) {
     }
   });
   return occurs;
-=======
-  
-};
-
-
-// Question 8
-function findLongestWord () {
-  
-}
-
-// Question 9
-function filterLongWords () {
-  
-}
-
-
-// Bonus 1
-//??????
-
-
-// Bonus 2
-function charactersOccurencesCount() {
-  
->>>>>>> 3e56b85a90f9e62b1074355990a1b39004b4595d
 }
 
 // Bonus 3
 var numberOfArguments = function(){
   
-<<<<<<< HEAD
   return arguments.length;
 
-=======
->>>>>>> 3e56b85a90f9e62b1074355990a1b39004b4595d
 }
